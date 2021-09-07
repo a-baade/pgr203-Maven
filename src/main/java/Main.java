@@ -6,9 +6,8 @@ public class Main {
         System.out.println("Write the number you wished converted to a Roman Numeral: ");
             int no = scanner.nextInt();
             intToRoman in = new intToRoman();
-            int value = no;
-            String sd = in.toRoman(value);
-            System.out.println(no + " = " + sd);
+            String sr = in.toRoman(no);
+            System.out.println(no + " = " + sr);
         }
     }
 
